@@ -22,7 +22,7 @@ export default function About() {
             Hi, I’m <span className="text-primary font-semibold">Dhruv Shah</span> — 
             a visionary <span className="text-teal font-semibold">Web Developer</span>, 
             <span className="text-teal font-semibold"> AI/ML Engineer</span>, 
-            and passionate <span className="text-teal font-semibold">Open-Source Contributor </span> 
+            and passionate <span className="text-teal font-semibold">Open-Source Contributor </span>  
             dedicated to building intelligent, scalable, and user-friendly solutions.
             Currently pursuing my <strong>B.Tech in Computer Science & Engineering</strong> at 
             ITM (SLS) Baroda University with a CPI of <strong>7.98/10</strong>.
