@@ -1,12 +1,20 @@
 export default function Projects() {
   const projects = [
     {
+      title: 'Sahyog - Enterprise Django Chatbot',
+      desc: 'An enterprise-grade chatbot built with Django, LangChain, and Next.js, featuring a dual API system, smart caching, and intelligent rate limiting.',
+      tech: ['Django', 'LangChain', 'Next.js', 'TypeScript', 'PostgreSQL'],
+      img: '/assets/Sahyog.png', // You may need to update this image path
+      demo: 'https://sahyog-main.vercel.app/',
+      github: 'https://github.com/harsh749005/sahyogMain.git'
+    },
+    {
       title: 'Krishi Mitra AI',
       desc: 'An advanced, multilingual AI assistant for Indian farmers providing crop advisory, pest detection, weather updates, and market prices via a conversational chatbot powered by Google Gemini.',
       tech: ['Next.js', 'TypeScript', 'Gemini AI', 'Next-Intl', 'TailwindCSS'],
-      img: '/assets/Screenshot%202025-10-21%20222334.png', // You may need to update this image path
+      img: '/assets/KrishiMitra.png',
       demo: 'https://krishi-mitra-ai-app-p5st.vercel.app/',
-      github: 'https://github.com/shahdhruvp16/krishi-mitra-ai-app' // Corrected this based on your other repos
+      github: 'https://github.com/shahdhruvp16/krishi-mitra-ai-app'
     },
     {
       title: 'Sign Language Translator',
