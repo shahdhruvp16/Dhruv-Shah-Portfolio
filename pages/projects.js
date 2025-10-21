@@ -1,6 +1,14 @@
 export default function Projects() {
   const projects = [
     {
+      title: 'Krishi Mitra AI',
+      desc: 'An advanced, multilingual AI assistant for Indian farmers providing crop advisory, pest detection, weather updates, and market prices via a conversational chatbot powered by Google Gemini.',
+      tech: ['Next.js', 'TypeScript', 'Gemini AI', 'Next-Intl', 'TailwindCSS'],
+      img: '/assets/KrishiMitra.png', // You may need to update this image path
+      demo: 'https://krishi-mitra-ai-app-p5st.vercel.app/',
+      github: 'https://github.com/shahdhruvp16/krishi-mitra-ai-app' // Corrected this based on your other repos
+    },
+    {
       title: 'Sign Language Translator',
       desc: 'Built a real-time sign recognition system using MediaPipe & Random Forest, supporting English, Hindi, and Gujarati with live speech output. Improved accessibility for the deaf & mute community.',
       tech: ['Python', 'OpenCV', 'MediaPipe', 'Streamlit'],
