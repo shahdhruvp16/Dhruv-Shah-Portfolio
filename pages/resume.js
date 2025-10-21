@@ -42,58 +42,69 @@ export default function Resume() {
 
       {/* Experience */}
       <section className="mb-8">
-        <h2 className="text-xl sm:text-2xl font-semibold">Experience</h2>
-        <div className="mt-4 space-y-4">
-          {[
-            {
-              role: ".NET Developer Intern",
-              company: "L&T Energy Hydrocarbon Ltd.",
-              period: "July 2025 – Present",
-              bullets: [
-                "Developing and maintaining .NET-based web applications",
-                "Improved UI/UX with ASP.NET MVC and Razor Pages"
-              ]
-            },
-            {
-              role: "Social Media Content & Outreach Volunteer",
-              company: "Hexsociety",
-              period: "Sept 2023 – Present",
-              bullets: [
-                "Produced tech educational content",
-                "Designed interactive quizzes for engagement"
-              ]
-            },
-            {
-              role: "Communication & Web Dev Intern",
-              company: "Nobel Navigators (Remote)",
-              period: "May – June 2025",
-              bullets: [
-                "Built WordPress sites with custom themes and plugins"
-              ]
-            },
-            {
-              role: "Web Dev Intern",
-              company: "Innomatics Research Lab",
-              period: "Jan – March 2025",
-              bullets: [
-                "Full-stack using React, Node.js, MongoDB; API integration"
-              ]
-            }
-          ].map((exp, idx) => (
-            <div key={idx} className="p-4 rounded-lg nav-glass">
-              <h3 className="font-semibold text-base sm:text-lg">
-                {exp.role} — {exp.company}
-              </h3>
-              <p className="text-xs sm:text-sm opacity-70">{exp.period}</p>
-              <ul className="mt-2 list-disc list-inside opacity-90 text-xs sm:text-sm">
-                {exp.bullets.map((b, i) => (
-                  <li key={i}>{b}</li>
-                ))}
-              </ul>
-            </div>
+  <h2 className="text-xl sm:text-2xl font-semibold">Experience</h2>
+  <div className="mt-4 space-y-4">
+    {[
+      {
+        role: ".NET Developer Intern",
+        company: "L&T Energy Hydrocarbon Ltd.",
+        period: "July 2025 – Present",
+        bullets: [
+          "Developed enterprise web applications and critical internal tools using .NET.",
+          "Improved application UI/UX by building responsive pages with ASP.NET MVC.",
+        ],
+      },
+      {
+        role: "Open Source Contributor",
+        company: "GirlScript Summer of Code",
+        period: "July 2025 – Present",
+        bullets: [
+          "Contributed to open-source projects with a focus on front-end enhancements.",
+          "Resolved complex bugs and collaborated with a global team using Git & GitHub.",
+        ],
+      },
+      {
+        role: "Social Media Content & Outreach Volunteer",
+        company: "Hexsociety",
+        period: "Sept 2023 – Present",
+        bullets: [
+          "Created engaging educational content on emerging technologies for a wide audience.",
+          "Designed interactive technical quizzes to significantly boost user engagement.",
+        ],
+      },
+      {
+        role: "Communication & Web Dev Intern",
+        company: "Nobel Navigators (Remote)",
+        period: "May – June 2025",
+        bullets: [
+          "Built and launched dynamic, client-focused websites using the WordPress platform.",
+          "Implemented custom themes and plugins to deliver tailored solution functionality.",
+        ],
+      },
+      {
+        role: "Web Dev Intern",
+        company: "Innomatics Research Lab",
+        period: "Jan – March 2025",
+        bullets: [
+          "Developed full-stack web applications utilizing the MERN (MongoDB, React) stack.",
+          "Integrated third-party APIs to extend features and enable real-time data flow.",
+        ],
+      },
+    ].map((exp, idx) => (
+      <div key={idx} className="p-4 rounded-lg nav-glass">
+        <h3 className="font-semibold text-base sm:text-lg">
+          {exp.role} — {exp.company}
+        </h3>
+        <p className="text-xs sm:text-sm opacity-70">{exp.period}</p>
+        <ul className="mt-2 list-disc list-inside opacity-90 text-xs sm:text-sm space-y-1">
+          {exp.bullets.map((b, i) => (
+            <li key={i}>{b}</li>
           ))}
-        </div>
-      </section>
+        </ul>
+      </div>
+    ))}
+  </div>
+</section>
 
       {/* Education */}
       <section className="mb-8">
@@ -131,4 +142,5 @@ export default function Resume() {
     </div>
   );
 }
+
 
