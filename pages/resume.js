@@ -5,7 +5,7 @@ export default function Resume() {
       <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4 mb-6">
         <h1 className="text-3xl sm:text-4xl font-bold">Resume</h1>
         <a
-          href="https://drive.google.com/file/d/10EOMt1TOKx4KP3HZPqrYU163ZInWQbhq/view"
+          href="https://drive.google.com/file/d/1nyOc5_LsP_EBM8oVjvTf4t7a_BsvmrCI/view?usp=sharing"
           download
           className="px-5 py-3 rounded-lg bg-gradient-to-r from-primary to-teal text-black font-semibold shadow-lg hover:scale-105 transition-transform text-center"
         >
@@ -131,3 +131,4 @@ export default function Resume() {
     </div>
   );
 }
+
