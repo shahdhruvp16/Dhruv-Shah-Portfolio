@@ -6,8 +6,18 @@ export default function Experience() {
       company: 'L&T Energy Hydrocarbon Ltd.',
       logo: 'https://clipground.com/images/lt-logo-clipart.jpg',
       bullets: [
-        'Developing and maintaining scalable .NET-based web applications.',
-        'Enhanced UI/UX with ASP.NET MVC and Razor Pages, improving user satisfaction.'
+        'Developed enterprise web applications and critical internal tools using .NET.',
+        'Improved application UI/UX by building responsive pages with ASP.NET MVC.'
+      ]
+    },
+    {
+      period: 'July 2025 – Present',
+      role: 'Open Source Contributor',
+      company: 'GirlScript Summer of Code',
+      logo: 'https://media.licdn.com/dms/image/v2/C510BAQGSObrO0QPlMQ/company-logo_100_100/company-logo_100_100/0/1630597186826/girlscriptsoc_logo?e=1762387200&v=beta&t=TuHl9B_MEgnUybrnD329AI_nGJm8M3XgZTBTZCndb-8',
+      bullets: [
+        'Contributed to open-source projects with a focus on front-end enhancements.',
+        'Resolved complex bugs and collaborated with a global team using Git & GitHub.'
       ]
     },
     {
@@ -16,8 +26,8 @@ export default function Experience() {
       company: 'Hexsociety',
       logo: 'https://www.hexsociety.in/assets/images/logo.png',
       bullets: [
-        'Produced tech educational content reaching 5,000+ online learners.',
-        'Designed interactive quizzes, boosting engagement by 30%.'
+        'Created engaging educational content on emerging tech for a wide audience.',
+        'Designed interactive technical quizzes to significantly boost user engagement.'
       ]
     },
     {
@@ -26,7 +36,7 @@ export default function Experience() {
       company: 'Nobel Navigators (Remote)',
       logo: 'https://nobelnavigators.com/wp-content/uploads/2021/08/logo.png',
       bullets: [
-        'Built custom WordPress themes and plugins, reducing page load time by 40%.'
+        'Built and launched dynamic, client-focused websites using the WordPress platform.',
       ]
     },
     {
@@ -35,8 +45,8 @@ export default function Experience() {
       company: 'Innomatics Research Lab',
       logo: 'https://thf.bing.com/th/id/OIP.rQqyKN6JfCRL6QTmJJsGGAHaHa',
       bullets: [
-        'Full-stack development with React, Node.js, and MongoDB.',
-        'Integrated REST APIs to enable real-time data updates.'
+        'Developed full-stack web applications utilizing the MERN (MongoDB, React) stack.',
+        'Integrated third-party APIs to extend features and enable real-time data flow.'
       ]
     },
     {
@@ -45,8 +55,8 @@ export default function Experience() {
       company: 'Shree Amrit Vidhyalaya',
       logo: 'https://amritvidyalaya.org/wp-content/uploads/2019/10/3449-2.png',
       bullets: [
-        'Worked on real-world educational projects in a 1-month internship.',
-        'Solved market-driven challenges using modern web technologies.'
+        'Worked on real-world educational projects in a fast-paced 1-month internship.',
+        'Solved market-driven challenges using modern and emerging web technologies.'
       ]
     },
     {
@@ -55,8 +65,8 @@ export default function Experience() {
       company: 'Bharat Intern',
       logo: 'https://tse1.mm.bing.net/th/id/OIP.moJgyVDMk2qxCrHYN-_jIAHaEK',
       bullets: [
-        'Enhanced practical skills by tackling real-world development challenges.',
-        'Strengthened problem-solving and technical proficiency.'
+        'Enhanced practical skills by tackling a variety of real-world development tasks.',
+        'Strengthened problem-solving abilities and overall technical proficiency.'
       ]
     }
   ];
