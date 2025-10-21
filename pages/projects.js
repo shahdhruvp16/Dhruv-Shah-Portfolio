@@ -4,7 +4,7 @@ export default function Projects() {
       title: 'Krishi Mitra AI',
       desc: 'An advanced, multilingual AI assistant for Indian farmers providing crop advisory, pest detection, weather updates, and market prices via a conversational chatbot powered by Google Gemini.',
       tech: ['Next.js', 'TypeScript', 'Gemini AI', 'Next-Intl', 'TailwindCSS'],
-      img: '/assets/KrishiMitra.png', // You may need to update this image path
+      img: '/assets/Screenshot%202025-10-21%20222334.png', // You may need to update this image path
       demo: 'https://krishi-mitra-ai-app-p5st.vercel.app/',
       github: 'https://github.com/shahdhruvp16/krishi-mitra-ai-app' // Corrected this based on your other repos
     },
