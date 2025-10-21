@@ -14,7 +14,7 @@ export default function Experience() {
       period: 'July 2025 – Present',
       role: 'Open Source Contributor',
       company: 'GirlScript Summer of Code',
-      logo: 'https://media.licdn.com/dms/image/v2/C510BAQGSObrO0QPlMQ/company-logo_100_100/company-logo_100_100/0/1630597186826/girlscriptsoc_logo?e=1762387200&v=beta&t=TuHl9B_MEgnUybrnD329AI_nGJm8M3XgZTBTZCndb-8',
+      logo: 'https://imgs.search.brave.com/_d5CB-J8blcHbnyhaRkGHUEuzqrBbcH2x_DBuzy_fS4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9taXJv/Lm1lZGl1bS5jb20v/djIvMSpaZllXWE4w/ekE2VHFRUTd3R05K/VU9nLmpwZWc',
       bullets: [
         'Contributed to open-source projects with a focus on front-end enhancements.',
         'Resolved complex bugs and collaborated with a global team using Git & GitHub.'
