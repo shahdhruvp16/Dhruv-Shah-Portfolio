@@ -139,7 +139,7 @@ export default function Home() {
                   rel="noopener noreferrer"
                   className="text-sm px-3 py-1 rounded bg-white/10 hover:bg-white/20"
                 >
-                  Play
+                  Live Demo
                 </a>
                 <a
                   href="https://github.com/shahdhruvp16/autobi---ai-powered-data-to-dashboard-generator"
