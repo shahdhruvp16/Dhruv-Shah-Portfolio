@@ -52,6 +52,8 @@ export default function Home() {
         <meta property="og:description" content="Explore Dhruv Shah's portfolio — modern web apps, AI/ML projects, and interactive experiences." />
         <meta property="og:type" content="website" />
         <link rel="canonical" href="https://yourdomain.com" />
+
+        <link rel="icon" type="image/jpg" href="/public/assets/profile.jpg" />
       </Head>
 
       <div className="text-white font-rajdhani px-4">
