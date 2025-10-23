@@ -1,6 +1,14 @@
 export default function Projects() {
   const projects = [
     {
+      title: 'AutoBI - AI Powered Data-to-Dashboard Generator',
+      desc: 'An intelligent platform that automatically converts CSV data into interactive Power BI or Tableau dashboards with AI-generated summaries, visualizations, and insights.',
+      tech: ['Next.js', 'TypeScript', 'Python', 'Power BI API', 'Tableau API', 'TailwindCSS'],
+      img: '/assets/AutoBI.png',
+      demo: 'https://autobi-ai-powered-data-to-dashboard.vercel.app/',
+      github: 'https://github.com/shahdhruvp16/autobi---ai-powered-data-to-dashboard-generator'
+    },
+    {
       title: 'Sahyog - Enterprise Django Chatbot',
       desc: 'An enterprise-grade chatbot built with Django, LangChain, and Next.js, featuring a dual API system, smart caching, and intelligent rate limiting.',
       tech: ['Django', 'LangChain', 'Next.js', 'TypeScript', 'PostgreSQL'],
