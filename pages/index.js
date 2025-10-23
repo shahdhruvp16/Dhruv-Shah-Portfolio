@@ -127,13 +127,14 @@ export default function Home() {
             </div>
 
             <div className="p-4 rounded-lg nav-glass hover:scale-[1.02] transition-transform">
-              <div className="font-semibold">Checkers Game (AI)</div>
-              <div className="text-sm opacity-80 mt-2">
-                HTML/CSS/JS game with Minimax AI, 3D board, timers, undo, and celebration animation.
-              </div>
+              <div className="font-semibold">AutoBI – AI-Powered Data-to-Dashboard</div>
+<div className="text-sm opacity-80 mt-2">
+  AI-driven tool that transforms CSV data into interactive Power BI & Tableau dashboards with insights, summaries, and customizable templates.
+</div>
+
               <div className="mt-3 flex gap-2 flex-wrap">
                 <a
-                  href="https://checkers-game-using-ai.vercel.app/"
+                  href="https://autobi-ai-powered-data-to-dashboard.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm px-3 py-1 rounded bg-white/10 hover:bg-white/20"
@@ -141,7 +142,7 @@ export default function Home() {
                   Play
                 </a>
                 <a
-                  href="https://github.com/shahdhruvp16/Checkers-Game-Using-AI"
+                  href="https://github.com/shahdhruvp16/autobi---ai-powered-data-to-dashboard-generator"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm px-3 py-1 rounded bg-white/10 hover:bg-white/20"
