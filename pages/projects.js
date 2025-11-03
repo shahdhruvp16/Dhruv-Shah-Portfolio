@@ -5,8 +5,8 @@ export default function Projects() {
       desc: 'An intelligent platform that automatically converts CSV data into interactive Power BI or Tableau dashboards with AI-generated summaries, visualizations, and insights.',
       tech: ['Next.js', 'TypeScript', 'Python', 'Power BI API', 'Tableau API', 'TailwindCSS'],
       img: '/assets/AutoBI.png',
-      demo: 'https://autobi-ai-powered-data-to-dashboard.vercel.app/',
-      github: 'https://github.com/shahdhruvp16/autobi---ai-powered-data-to-dashboard-generator'
+      demo: 'https://autobi-an-ai-powered-dashboard-gene.vercel.app/',
+      github: 'https://github.com/shahdhruvp16/autobi-an-ai-powered-dashboard-generator'
     },
     {
       title: 'Sahyog - Enterprise Django Chatbot',
